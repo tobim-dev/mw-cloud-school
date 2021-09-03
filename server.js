@@ -5,7 +5,7 @@ const { WebPubSubEventHandler } = require('@azure/web-pubsub-express');
 const app = express();
 const hubName = 'chat';
 
-let serviceClient = new WebPubSubServiceClient(process.argv[2], hubName);
+let serviceClient = new WebPubSubServiceClient(process.env.CONNECTION_STRING, hubName);
 let handler = new WebPubSubEventHandler(hubName, ['*'], {
   path: '/eventhandler',
   onConnected: async req => {
