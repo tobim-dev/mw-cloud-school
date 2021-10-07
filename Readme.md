@@ -16,8 +16,8 @@ Deploy the resource group in the West Europe Region.
 
 ## Create an Azure Web App
 
-1. Open the Azure Portal, go the marketplace and search for "App Service".
-2. Select App Service and add the following information:
+1. Open the Azure Portal, go the marketplace and search for "Web App".
+2. Select Web App and add the following information:
    * Resource Group: Select the previous created resource group
    * Name: Choose a name according the following naming scheme: ```cloud-school-foundation-webapp-[YOUR-NAME]```
    * Publish: Code
