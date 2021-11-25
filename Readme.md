@@ -40,7 +40,7 @@ Deploy the resource group in the West Europe Region.
 ## Link the Azure PubSub Service with the Azure Web App
 1. Open your Web PubSub Service in the Azure Portal, go to the "Keys Tab" in the Settings Menu and copy the full Connection String under Primary.
    ![Connection String](./docs/portal_conn.png)
-2. Open your Web App in the Azure Portal, go to the "Configuration Tab" in the Settings Menu and add a new application setting. Name it "CONNECTION_STRING" (exact naming, otherwise it will not work). The value is the previously copied connection string. 
+2. Open your Web App in the Azure Portal, go to the "Configuration Tab" in the Settings Menu and add a new application setting. Name it "WebPubSubConnectionString" (exact naming, otherwise it will not work). The value is the previously copied connection string. 
 3. Go back to the "Overview Tab" in your Web App and copy the URL on the upper right. 
 4. Open your Web PubSub Service in the Azure Portal, go to the "Settings Tab" in the Settings Menu and add an Event Handler Setting for the Hub. Name it "chat" (exact naming, otherwise it will not work).
 5. Add a URL Template with the following values and click on save:
