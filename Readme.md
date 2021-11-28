@@ -24,7 +24,7 @@ Deploy the resource group in the West Europe Region.
    * Runtime Stack: Node 14 LTS
    * Operating System: Linux
    * Region: West Europe
-   * App Service Plan: Create a new one and for SKU and Size select F1 (Free Plan)
+   * App Service Plan: Create a new one and for SKU and Size select B1 (Basic Plan)
 3. Click on "Review + Create" and create the Web App
 
 ## Create an Azure PubSub Service
