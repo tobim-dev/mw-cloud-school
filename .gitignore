@@ -1,2 +1,6 @@
 node_modules
 .idea
+IaaS/keys/
+IaaS/.terraform/
+IaaS/.terraform*
+Iaas/terraform*
